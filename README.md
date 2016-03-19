@@ -1,6 +1,24 @@
 # OpenStardrive Flight Director Client
 
 This is the flight director's client for the OpenStardrive simulation software.
+It is written using [React.js](https://github.com/reactjs)
+and built with [Webpack](https://github.com/webpack/webpack).
+
+
+## Running the Client
+
+This client requires an
+[OpenStardrive Server](https://github.com/openstardrive/server)
+to be running.
+
+To run this client in a development environment:
+
+```
+npm install
+npm start
+```
+
+Then visit [http://localhost:3001](http://localhost:3001) to see the client.
 
 
 ## License
