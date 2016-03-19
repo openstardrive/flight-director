@@ -1,0 +1,53 @@
+#engines {
+  float: left;
+}
+
+#engines .engine {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#engines .progress-bar-container {
+  height: 14px;
+  border: 1px solid black;
+  position: relative;
+  margin: 3px 0;
+}
+
+#engines .progress-bar {
+  height: 100%;
+}
+
+#engines .progress-text {
+  position: absolute;
+  width: 100%;
+  font-size: 12px;
+  text-align: center;
+}
+
+#engines .sublight .progress-bar-container {
+  width: 150px;
+}
+
+#engines .ftl .progress-bar-container {
+  width: 250px;
+}
+
+#engines .speed .progress-bar {
+  background-color: lightblue;
+}
+
+#engines .heat .progress-bar-container {
+  background-color: red;
+  background: linear-gradient(to right,  #ffff00 0%,#ff0000 100%);
+}
+
+#engines .heat .progress-bar {
+  background-color:white;
+  float: right;
+}
+
+#engines .overheat {
+  font-size: 12px;
+  display: inline-block;
+}
