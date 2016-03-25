@@ -6,4 +6,5 @@
   fill: white;
   stroke: none;
   font-size: 12px;
+  pointer-events: none;
 }
