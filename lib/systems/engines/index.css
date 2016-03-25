@@ -51,3 +51,7 @@
   font-size: 12px;
   display: inline-block;
 }
+
+#engines .label {
+  font-size: 13px;
+}
