@@ -1,0 +1,9 @@
+#sensors .contact {
+  cursor: pointer;
+}
+
+#sensors svg text {
+  fill: white;
+  stroke: none;
+  font-size: 12px;
+}
