@@ -8,3 +8,11 @@
   font-size: 12px;
   pointer-events: none;
 }
+
+#sensors .label {
+  font-size: 12px;
+}
+
+#sensors input {
+  margin: 0 5px;
+}
