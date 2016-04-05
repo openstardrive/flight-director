@@ -1,0 +1,12 @@
+#thrusters .dial {
+  width: 50px;
+  height: 50px;
+}
+
+#thrusters .dial circle {
+    fill: black;
+}
+
+#thrusters .dial polygon {
+    fill: white;
+}
