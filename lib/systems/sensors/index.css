@@ -22,7 +22,8 @@
 
 #sensors .dragline {
    stroke: cyan;
-   stroke-width: .003
+   stroke-width: .003;
+   pointer-events: none;
 }
 
 #sensors .destination {
@@ -51,4 +52,16 @@
 
 #sensors .speed {
   float: right;
+}
+
+#sensors #remove-contact rect {
+  fill: transparent;
+  stroke: red;
+  stroke-width: .006;
+}
+
+#sensors #remove-contact line {
+  stroke: red;
+  stroke-width: .006;
+  pointer-events: none;
 }
