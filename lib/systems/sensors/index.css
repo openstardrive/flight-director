@@ -16,3 +16,8 @@
 #sensors input {
   margin: 0 5px;
 }
+
+#sensors .selected {
+  color: white;
+  background-color: #333333;
+}
