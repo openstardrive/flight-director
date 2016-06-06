@@ -15,19 +15,6 @@
   -webkit-user-select: none;
 }
 
-#sensors .label {
-  font-size: 12px;
-}
-
-#sensors input {
-  margin: 0 5px;
-}
-
-#sensors .selected {
-  color: white;
-  background-color: #333333;
-}
-
 #sensors .contact {
   stroke: none;
   fill: yellow;
@@ -46,4 +33,22 @@
 #sensor-grid {
     stroke: green;
     stroke-width: .003;
+}
+
+#sensors .label {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+#sensors input {
+  margin-right: 5px;
+}
+
+#sensors .selected {
+  color: white;
+  background-color: #333333;
+}
+
+#sensors .speed {
+  float: right;
 }
