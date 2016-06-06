@@ -5,8 +5,10 @@
 #sensors svg text {
   fill: white;
   stroke: none;
-  font-size: 12px;
+  font-size: .048px;
   pointer-events: none;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 #sensors .label {
