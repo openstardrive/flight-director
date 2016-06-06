@@ -2,10 +2,14 @@
   cursor: pointer;
 }
 
+#sensors svg {
+  background-color: #999999;
+}
+
 #sensors svg text {
   fill: white;
   stroke: none;
-  font-size: .048px;
+  font-size: .05px;
   pointer-events: none;
   user-select: none;
   -webkit-user-select: none;
@@ -22,4 +26,24 @@
 #sensors .selected {
   color: white;
   background-color: #333333;
+}
+
+#sensors .contact {
+  stroke: none;
+  fill: yellow;
+}
+
+#sensors .dragline {
+   stroke: cyan;
+   stroke-width: .003
+}
+
+#sensors .destination {
+  stroke: grey;
+  stroke-width: .003;
+}
+
+#sensor-grid {
+    stroke: green;
+    stroke-width: .003;
 }
