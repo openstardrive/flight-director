@@ -1,0 +1,39 @@
+#clients {
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  background-color: white;
+}
+
+#clients h2 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+#clients .last-seen {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid black;
+}
+
+#clients .client {
+  margin: 3px 0;
+}
+
+#clients .last-seen.green {
+  background-color: #009900;
+}
+
+#clients .last-seen.yellow {
+  background-color: #FFFF00;
+}
+
+#clients .last-seen.red {
+  background-color: #FF0000;
+}
+
+#clients .last-seen.gray {
+  background-color: #999999;
+}
