@@ -11,29 +11,33 @@
   font-size: 18px;
 }
 
+#clients .client {
+  margin: 3px 0;
+}
+
+#clients .client.lost {
+  font-style: italic;
+  color: #999999;
+}
+
 #clients .last-seen {
   display: inline-block;
   width: 12px;
   height: 12px;
   border: 1px solid black;
-}
-
-#clients .client {
-  margin: 3px 0;
-}
-
-#clients .last-seen.green {
   background-color: #009900;
+  margin-right: 5px;
 }
 
-#clients .last-seen.yellow {
+#clients .client.warning .last-seen {
   background-color: #FFFF00;
 }
 
-#clients .last-seen.red {
+#clients .client.error .last-seen {
   background-color: #FF0000;
 }
 
-#clients .last-seen.gray {
-  background-color: #999999;
+#clients .client.lost .last-seen {
+  border-color: #999999;
+  background-color: #CCCCCC;
 }
