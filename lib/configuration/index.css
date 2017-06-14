@@ -1,0 +1,16 @@
+#configuration {
+    background-color: white;
+    padding: 10px 20px;
+}
+
+#configuration label {
+    color: #333;
+    font-size: 10pt;
+    margin-right: 5px;
+}
+
+#configuration .group {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
